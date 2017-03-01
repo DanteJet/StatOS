@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31.01.2017, 22:18:11
+    Author     : Yakovbubnov
+*/
+
+.label {
+    -fx-font-size: 16px;
+     -fx-font-family: "Arial Black";
+    -fx-pref-width: 110;
+    -fx-pref-height: 80;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+#itgl{
+    -fx-font-size: 15px;
+    -fx-pref-width: 70;
+    -fx-pref-height: 80;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+     -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    
+}
+#firstlab{
+   -fx-font-size: 14px;
+   -fx-font-family: "Arial Black";
+   -fx-pref-width: 100;
+ -fx-pref-height: 80;
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+#secondlab{
+   -fx-font-size: 14px;
+   -fx-font-family: "Arial Black";
+   -fx-pref-width: 130;
+ -fx-pref-height: 80;
+   -fx-fill: #818181;
+
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+#comboprod{
+ -fx-font-size: 24px;
+ -fx-font-family: "Times New Roman";
+ -fx-pref-width: 230;
+ -fx-pref-height: 80;
+}
+#textost{
+ -fx-font-size: 15px;
+ -fx-font-family: "Times New Roman";
+ -fx-pref-width: 130;
+ -fx-pref-height: 80;
+}
+#vyr{
+    -fx-font-size: 15px;
+    -fx-font-family:"Times New Roman";
+    -fx-pref-width: 170;
+    -fx-pref-height:80;
+}
+.spinner{
+    -fx-font-size: 18px;
+    -fx-font-family: "Times New Roman";
+    -fx-pref-width: 40;
+    -fx-pref-height: 80;
+}
+
+#alert{
+    -fx-font-size: 24px;
+}
+#labl{
+    -fx-font-size: 15px;
+    -fx-font-family: "Times New Roman"; 
+    -fx-pref-width: 30;
+    -fx-pref-height: 80;
+}
+#combbot{
+  -fx-font-size: 23px;
+ -fx-font-family: "Times New Roman";
+ -fx-pref-width: 180;
+ -fx-pref-height: 80;  
+}
+#btitg{
+    -fx-font-size: 18px;
+    -fx-font-family: "Times New Roman"; 
+    -fx-pref-width: 60;
+    -fx-pref-height: 80;
+}
+#welcome-text {
+   -fx-font-size: 32px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+#actfalse {
+  -fx-fill: FIREBRICK;
+  -fx-font-weight: bold;
+  -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+#acttrue {
+  -fx-fill: green;
+  -fx-font-weight: bold;
+  -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+.combo-box{
+    -fx-font-size: 16px;
+    
+}
+
+.button {
+    -fx-font-size: 16px; 
+    -fx-text-fill: white;
+    
+    /*-fx-pref-width: 100;
+      -fx-pref-height: 40;*/
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.button:hover {
+ -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+ }
